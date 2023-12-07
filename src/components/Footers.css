@@ -1,0 +1,99 @@
+.Footer {
+  background-color: #101802;
+  background-size: cover;
+  padding-top: 50px;
+  height: auto;
+  width: auto;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1;
+  text-align: center;
+}
+.contact-us p {
+  color: white;
+  font-size: 18px;
+}
+.f-logo img {
+  /* margin-left: -100px; */
+  width: 300px;
+  height: 60px;
+}
+#c-head {
+  color: #22ac86;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica;
+}
+
+.contact-us img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+#email-2 {
+  font-size: 20px;
+  font-style: italic;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  gap: 10px;
+  color: white;
+  padding: 10px;
+}
+.d-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #101802;
+  border-top: 1px solid white;
+  color: white;
+  justify-content: space-around;
+  text-align: center;
+}
+.arrow {
+  color: #757575;
+  margin-left: -20px;
+  font-size: 20px;
+}
+#youtube-logo-footer{
+  width: 35px;
+  height: 35px;
+}
+.f-submit-button{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.f-submit-button:focus{
+  outline: none;
+}
+
+.c-form input::placeholder {
+  color: white;
+}
+.c-form input:focus {
+  outline: none;
+}
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .Footer {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .f-logo img {
+    width: 250px;
+    height: auto;
+  }
+
+  .contact-us {
+    margin-top: 0;
+  }
+
+  #email {
+    font-size: 18px;
+  }
+}

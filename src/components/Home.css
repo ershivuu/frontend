@@ -1,0 +1,373 @@
+.bg-img {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  /* margin-top: 5%; */
+  /* clip-path: ellipse(100px 100px at 100px 100px); */
+}
+.h-heading {
+  position: absolute;
+  top: 0;
+  margin-top: 21%;
+  font-size: 3vw;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  margin-left: 5%;
+}
+#heading {
+  font-size: 3vw;
+}
+/* home ka img wala css start */
+.welcome-llp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-left: 8%; */
+  /* margin-bottom: 5%; */
+  background-color: white;
+  padding-top: 100px;
+}
+.welcome-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: max-content;
+}
+.welcome-llp-para {
+  width: 450px;
+  margin-left: 5%;
+}
+.welcome-llp-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3vw;
+  line-height: 1;
+}
+#img1 {
+  width: 297px;
+  height: 390px;
+  border: 3px solid white;
+  z-index: 1;
+  max-width: max-content;
+  max-height: max-content;
+  margin-left: 15%;
+}
+#img2 {
+  width: 354px;
+  height: 187px;
+  border: 3px solid white;
+  margin-top: -25%;
+  max-width: max-content;
+  max-height: max-content;
+}
+#img3 {
+  width: 354px;
+  height: 187px;
+  border: 3px solid white;
+  margin-top: 25%;
+  margin-left: -34%;
+  max-width: max-content;
+  max-height: max-content;
+}
+#view-btn {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 18px;
+}
+.welcome2-coma {
+  color: #88c128;
+  font-size: 2vw;
+}
+/* ---------------------------------------------------[ */
+
+.welcome2-llp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  background-color: white;
+  padding-top: 100px;
+}
+.welcome2-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: max-content;
+}
+.welcome2-llp-para {
+  margin-left: -10%;
+  width: 500px;
+  font-style: italic;
+  font-size: 2vw;
+}
+#img4 {
+  width: 297px;
+  height: 390px;
+  border: 3px solid white;
+  max-width: max-content;
+  max-height: max-content;
+}
+#img5 {
+  width: 354px;
+  height: 181px;
+  border: 3px solid white;
+  margin-top: -26%;
+  max-width: max-content;
+  max-height: max-content;
+}
+#img6 {
+  width: 268px;
+  height: 195px;
+  border: 3px solid white;
+  margin-top: 24%;
+  margin-left: -33.5%;
+  max-width: max-content;
+  max-height: max-content;
+}
+#testimonial-btn {
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+/* home ka img wala css end */
+
+/*--------------------------slider css starts--------------------------------- */
+.slider-heading {
+  text-align: center;
+  font-size: 3vw;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.slider-container {
+  /* background-image: url("../images/slider-background.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.card {
+  background-color: transparent !important;
+  width: 600px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 63px 0 0 0;
+  transition: transform 400ms;
+  opacity: 0.6;
+  border: none !important;
+}
+
+.swiper {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-active {
+  z-index: 1;
+}
+
+.swiper-slide-active .card {
+  /* box-shadow: 0 8px 30px -7px black; */
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: none;
+}
+.slider-img {
+  width: 100%;
+}
+:root {
+  --swiper-navigation-size: 2vw;
+  --swiper-theme-color: white;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 22%);
+  right: auto;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 23%);
+  left: auto;
+}
+.gallery-btn {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 45%;
+  margin-top: 2%;
+}
+/*-----------------------slider css ends------------------------------ */
+@media screen and (max-width: 768px) {
+
+  .h-heading {
+    margin-top: 40%;
+    margin-left: 7%;
+  }
+  .bg-img {
+    height: 300px;
+  }
+  #heading {
+    font-size: 5vw;
+  }
+  .welcome-llp {
+    margin-top: -10%;
+    margin-left: 4%;
+  }
+  .welcome-llp-heading {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .welcome-llp-para {
+    text-align: center;
+  }
+  #img1 {
+    width: 150px;
+    height: 180px;
+    margin-left: 13%;
+  }
+  #img2 {
+    width: 130px;
+    height: 90px;
+  }
+  #img3 {
+    width: 130px;
+    height: 90px;
+  }
+  #view-btn {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: -20%;
+  }
+  .welcome-llp {
+    margin-bottom: 20%;
+  }
+  /* -------------------------------------------------------- */
+
+  .welcome2-llp {
+    margin-top: -10%;
+    margin-left: 4%;
+  }
+  .welcome2-llp-para {
+    margin-left: 0.3%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 20px;
+  }
+  #img4 {
+    width: 150px;
+    height: 180px;
+    margin-left: 13%;
+  }
+  #img5 {
+    width: 130px;
+    height: 90px;
+  }
+  #img6 {
+    width: 130px;
+    height: 90px;
+  }
+
+  .welcome2-llp {
+    margin-bottom: 20%;
+  }
+  #testimonial-btn {
+    font-size: 18px;
+  }
+  .slider-heading {
+    font-size: 20px;
+    margin-bottom: -6%;
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, 22%);
+    right: auto;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 23%);
+    left: auto;
+  }
+  .gallery-btn {
+    margin-left: 34%;
+    margin-top: 4%;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+  #view-btn {
+    margin-top: 27%;
+    margin-left: -13%;
+  }
+  .slider-container {
+    margin-top: -9%;
+  }
+  .gallery-btn {
+    margin-left: 43%;
+    margin-top: 4%;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+ 
+  .slider-container {
+    margin-top: 2%;
+  }
+  #view-btn {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+  }
+  .welcome2-llp {
+    /* margin-top: -10%; */
+    margin-left: 21%;
+  }
+  .welcome2-llp p {
+    margin-left: -15%;
+    width: 500px;
+  }
+  #testimonial-btn {
+    margin-left: 15%;
+  }
+}
+@media only screen and (max-device-width: 2358px){
+.bg-img{
+  margin-top: 3.1%;
+}
+}
+@media only screen and (max-device-width: 5715px){
+  .bg-img{
+    margin-top: 4.5%;
+  }
+  }

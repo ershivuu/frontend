@@ -1,0 +1,105 @@
+.c-bgimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-position: center center;
+  position: relative;
+}
+.c-heading {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 54%;
+  font-size: 5vw;
+  margin-left: -14%;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: rgba(240, 248, 255, 0.403);
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  max-width: max-content;
+  padding: 0px 30px;
+}
+.contact-form {
+  position: relative;
+  /* text-align: center; */
+  justify-content: center;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+.contact-form p {
+  margin-bottom: -2%;
+  color: #88c128;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  /* padding: 30px; */
+}
+.contact-form input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  width: 70%;
+}
+.social-logos {
+  text-align: center;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+.social-logos p {
+  color: #88c128;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.social-logos img {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  margin: 14px;
+}
+.logos {
+  margin-top: -1.5%;
+}
+.contact-form input::placeholder {
+  color: black;
+}
+.contact-form input:focus {
+  outline: none;
+}
+#youtube-logo-contact {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .c-heading {
+    margin-top: -55%;
+    margin-left: -20%;
+    font-size: 20px;
+    padding: 1px 15px 0px 15px;
+    text-align: center;
+  }
+  .contact-form {
+    margin-top: 12%;
+    /* font-size: 15px; */
+    margin-left: 25%;
+  }
+  .social-logos {
+    margin-top: 5%;
+    margin-bottom: 12%;
+  }
+  .social-logos p {
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  .logos {
+    margin-top: -4%;
+    margin-left: 4%;
+  }
+}
